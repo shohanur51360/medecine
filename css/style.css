@@ -1,0 +1,370 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html{
+	scroll-behavior: smooth;
+}
+/**********************************************************
+	*** Global css code html code start ***
+**********************************************************/
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/**********************************************************
+	*** Global css code html code end ***
+**********************************************************/
+
+/**********************************************************
+	*** Header-section css code html code start ***
+**********************************************************/
+.header-section{
+	width: 100%;
+	padding: 20px 0px;
+
+}
+.header-one {
+    width: 100%;
+    margin: 15px 0px 0px 0px;
+}
+.header-two{
+	width: 100%;
+	margin:0px 0px 0px 0px;
+}
+.header-three{
+	width: 100%;
+	margin:15px 0px 0px 119px;
+}
+.nav-link {
+    display: block;
+    font-size: 18px;
+    color: #404040;
+    padding: .5rem 1rem;
+    font-weight: 500;
+}
+.nav-link:hover{
+	color: #649e5f;
+}
+img.one {
+    margin-right: 34px;
+}
+
+/**********************************************************
+	*** Header-section css code html code end ***
+**********************************************************/
+
+/**********************************************************
+	*** Banner-section css code html code start ***
+**********************************************************/
+.banner-section .container-fluid{
+    padding: 0px;
+}
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 448px;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .1s ease;
+}
+/**********************************************************
+	*** Banner-section css code html code end ***
+**********************************************************/
+
+/**********************************************************
+	*** Product-section css code html code start ***
+**********************************************************/
+.product-section{
+	width: 100%;
+	padding: 90px 0px;
+}
+.product-section .three {
+    width: 26px;
+    margin-right: 7px;
+}
+/**********************************************************
+	*** Product-section css code html code end ***
+**********************************************************/
+
+/**********************************************************
+	*** Feature-section css code html code start ***
+**********************************************************/
+.feature-section{
+	width: 100%;
+	padding: 10px 0px;
+	text-align: center;
+}
+.feature-top{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.feature-top h1 {
+    margin: 0px 0px 50px 0px;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #404040;
+    text-transform: uppercase;
+}
+.four {
+    margin: 0px 0px 32px 0px;
+}
+/**********************************************************
+	*** Feature-section css code html code end ***
+**********************************************************/
+
+/**********************************************************
+	*** Blog-section css code html code start ***
+**********************************************************/
+.blog-section{
+	width:100%;
+	padding: 80px 0px;
+	margin: 0px 0px 0px 0px;
+}
+.blog-one{
+	width: 100%;
+	margin: 0px 0px 0px -16px;
+}
+.blog-one img{
+	margin: 0px 0px 0px 0px;
+}
+.blog-one h5{
+	color: #808080;
+	font-size: 16px;
+	font-weight: 600;
+	margin:20px 0px;
+}
+.blog-one h2 {
+    color: #404040;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 0px 0px 13px 0px;
+}
+.blog-two{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.blog-two img{
+	margin: 0px 0px 0px 0px;
+}
+.blog-two h5{
+	color: #808080;
+	font-size: 16px;
+	font-weight: 600;
+	margin:20px 0px;
+}
+.blog-two h2 {
+    color: #404040;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 0px 0px 13px 0px;
+}
+.blog-three{
+	width: 100%;
+	margin: 0px 0px 0px 16px;
+}
+.blog-three img{
+	margin: 0px 0px 0px 0px;
+}
+.blog-three h5{
+	color: #808080;
+	font-size: 16px;
+	font-weight: 600;
+	margin:20px 0px;
+}
+.blog-three h2 {
+    color: #404040;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 0px 0px 13px 0px;
+}
+.btn-1{
+	background: transparent;
+	border: 0px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #404040;
+	margin: 0px 0px 0px 0px;
+}
+.btn-1:hover{
+	color: #649e5f;
+	background: transparent;
+	border: 0px;
+	transition: 1s;
+}
+/**********************************************************
+	*** Blog-section css code html code end ***
+**********************************************************/
+
+/**********************************************************
+	*** Feed-section css code html code start ***
+**********************************************************/
+.feed-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: #f7f7f7;
+}
+/**********************************************************
+	*** Feed-section css code html code end ***
+**********************************************************/
+
+/**********************************************************
+	*** Subscribe-section css code html code start ***
+**********************************************************/
+.subscribe-section {
+    width: 100%;
+    padding: 80px 0px 0px;
+    background: #fa897b;
+    margin: 0px 0px 0px 0px;
+}
+.subscribe-left{
+	width: 100%;
+	margin: 0px 0px 89px 45px;
+}
+.subscribe-left h2{
+	font-size: 19px;
+	font-weight: 500;
+	margin: 0px 0px 0px 0px;
+	color: #ffffff;
+}
+.subscribe-left strong{
+	font-size: 22px;
+	font-weight: 600;
+	margin: 0px 0px 0px 0px;
+	color: #ffffff;
+}
+.subscribe-right{
+	width: 100%;
+	margin: -9px 0px 0px 0px;
+}
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+    width: 92%;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: 25px 26px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 4.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.input-group-append .btn, .input-group-prepend .btn {
+    position: relative;
+    background: #d44848;
+    z-index: 2;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 11px 40px;
+    border-radius: 4.25rem;
+    border: 0px;
+}
+.divedier{
+	width: 100%;
+	background: #fcada3;
+	height: 2px;
+	margin: 0px 0px 0px 0px;
+}
+/**********************************************************
+	*** Subscribe-section css code html code end ***
+**********************************************************/
+
+/**********************************************************
+	*** Footer-section css code html code start ***
+**********************************************************/
+.footer-section{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	padding: 50px 0px;
+}
+.footer-1{
+	width: 100%;
+	margin: 40px 0px 0px 0px;
+}
+
+.footer-2{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.footer-2 a.nav-link.active {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 0px 0px 15px 0px;
+}
+.footer-2 .nav-link{
+	color: #ffffff;
+	 font-size: 17px;
+    font-weight: 500;
+}
+.footer-3{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.footer-3 a.nav-link.active {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 0px 0px 15px 0px;
+}
+.footer-3 .nav-link{
+	color: #ffffff;
+	 font-size: 17px;
+    font-weight: 500;
+}
+.footer-4{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.footer-4 a.nav-link.active {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 0px 0px 15px 0px;
+}
+.footer-4 .nav-link{
+	color: #ffffff;
+	 font-size: 17px;
+    font-weight: 500;
+}
+.footer-4 i {
+    margin-right: 14px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.footer-4 p {
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0px 0px -7px 0px;
+}
+/**********************************************************
+	*** Footer-section css code html code end ***
+**********************************************************/
